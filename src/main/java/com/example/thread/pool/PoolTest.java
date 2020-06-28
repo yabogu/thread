@@ -51,7 +51,7 @@ public class PoolTest {
         Future<Map> mapFuture = threadPool.submit(new CallableDemo(10));
         Map map = mapFuture.get();
         log.info("打印map:{}",map.values());
-        //线程池停止
+        //线程池停止1111
         threadPool.shutdown();
     }
 }
